@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# worktree
+.agents/
+jobs/
+jetski.json
+.mcp.json
+
 # Distribution / packaging
 .Python
 build/
