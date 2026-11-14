@@ -6,8 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# worktree
+# worktree (both directory and symlink forms)
+.agents
 .agents/
+jobs
 jobs/
 jetski.json
 .mcp.json
@@ -224,3 +226,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment overrides (keep .env.example tracked)
+.env.*
+!.env.example
+
+# Node.js / Next.js / Frontend build artifacts
+node_modules/
+.next/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+
+# Virtual environments & local emulator storage
+.venv/
+.local_storage/
+backend/.local_storage/
+
+# Playwright & E2E test artifacts
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+
+# macOS metadata
+.DS_Store
+
