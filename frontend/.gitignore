@@ -1,0 +1,9 @@
+# Un-ignore frontend/src/lib/** (root Python .gitignore contains `lib/`)
+!src/lib/
+!src/lib/**
+
+# Next.js & build caches
+.next/
+out/
+node_modules/
+*.tsbuildinfo

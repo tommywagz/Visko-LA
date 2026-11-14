@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --visko-obsidian: #070b12;
+  --visko-shell: #0f172a;
+  --visko-rail: #131b2e;
+  --visko-border-dark: rgba(148, 163, 184, 0.16);
+  --visko-surface-light: #f8fafc;
+  --visko-card-light: #ffffff;
+  --visko-border-light: #e2e8f0;
+  --gcp-blue: #1a73e8;
+  --gcp-blue-hover: #4285f4;
+  --visko-cyan: #38bdf8;
+  --visko-emerald: #10b981;
+  --visko-amber: #f59e0b;
+  --visko-crimson: #ef4444;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--visko-shell);
+  color: #f8fafc;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-telemetry {
+  font-family: "JetBrains Mono", "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom sleek scrollbars for Studio panels & Drive drawers */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
