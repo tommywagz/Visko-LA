@@ -252,3 +252,8 @@ playwright/.cache/
 # macOS metadata
 .DS_Store
 
+# Teamwork / evaluation reports (root copies)
+RELEASE_SUMMARY.md
+test_results.md
+handoff.md
+
